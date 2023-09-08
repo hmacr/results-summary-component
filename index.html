@@ -1,0 +1,121 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="./output.css"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="font-hanken-grotesk text-lg">
+    <!-- Container -->
+    <div
+      class="h-screen max-w-screen-lg mx-auto flex justify-center items-center"
+    >
+      <!-- Card -->
+      <div class="w-2/6 shadow-lg md:flex md:w-[60%]">
+        <!-- Result -->
+        <div
+          class="flex flex-col md:w-[50%] md:justify-center items-center p-6 bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-xl"
+        >
+          <h1 class="text-light-lavender">Your Result</h1>
+          <div
+            class="text-center w-[120px] h-[120px] mt-4 p-6 bg-gradient-to-b from-violet-blue to-persian-blue rounded-full"
+          >
+            <p class="text-white text-5xl font-black">76</p>
+            <p class="mt-2 text-light-lavender text-sm">of 100</p>
+          </div>
+          <div class="text-center mt-6">
+            <p class="text-white text-2xl font-medium">Great</p>
+            <p class="text-light-lavender text-sm mt-2 pb-4 leading-relaxed">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <!-- Summary -->
+        <div class="flex flex-col gap-4 md:w-[50%] p-6">
+          <h1 class="font-bold text-dark-gray-blue">Summary</h1>
+          <ul class="flex flex-col gap-4">
+            <li>
+              <div
+                class="flex items-center gap-3 px-4 py-3 bg-light-red/5 shadow-sm rounded-xl text-[16px]"
+              >
+                <img
+                  src="./images/icon-reaction.svg"
+                  alt="reaction-icon"
+                />
+                <p class="text-light-red font-bold">Reaction</p>
+                <p class="ml-auto text-gray-400">
+                  <span class="text-dark-gray-blue font-bold pr-1">80</span> /
+                  100
+                </p>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex items-center gap-3 px-4 py-3 bg-orangey-yellow/5 shadow-sm rounded-xl text-[16px]"
+              >
+                <img
+                  src="./images/icon-memory.svg"
+                  alt="memory-icon"
+                />
+                <p class="text-orangey-yellow font-bold">Memory</p>
+                <p class="ml-auto text-gray-400">
+                  <span class="text-dark-gray-blue font-bold pr-1">92</span> /
+                  100
+                </p>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex items-center gap-3 px-4 py-3 bg-green-teal/5 shadow-sm rounded-xl text-[16px]"
+              >
+                <img
+                  src="./images/icon-verbal.svg"
+                  alt="verbal-icon"
+                />
+                <p class="text-green-teal font-bold">Verbal</p>
+                <p class="ml-auto text-gray-400">
+                  <span class="text-dark-gray-blue font-bold pr-1">61</span> /
+                  100
+                </p>
+              </div>
+            </li>
+            <li>
+              <div
+                class="flex items-center gap-3 px-4 py-3 bg-cobalt-blue/5 shadow-sm rounded-xl text-[16px]"
+              >
+                <img
+                  src="./images/icon-visual.svg"
+                  alt="visual-icon"
+                />
+                <p class="text-cobalt-blue font-bold">Visual</p>
+                <p class="ml-auto text-gray-400">
+                  <span class="text-dark-gray-blue font-bold pr-1">72</span> /
+                  100
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button
+            class="my-2 px-2 py-3 bg-dark-gray-blue rounded-3xl text-white"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
